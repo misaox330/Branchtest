@@ -13,9 +13,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
-        android:text="Button" />
+        android:layout_alignRight="@+id/button3"
+        android:layout_marginTop="33dp"
+        android:text="Next" />
 
     <Button
         android:id="@+id/button2"
@@ -23,7 +23,17 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button1"
         android:layout_below="@+id/button1"
-        android:layout_marginTop="76dp"
-        android:text="Button" />
+        android:layout_marginTop="55dp"
+        android:text="次へ" />
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="進む" />
 
 </RelativeLayout>
